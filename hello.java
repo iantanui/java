@@ -1,18 +1,19 @@
-/**
- * hello
- */
-public class hello {
+
+class Main {
 
     public static void main(String[] args) {
 
-        int a = 3;
-        int b = 2;
+        int a = 4;
+        int var;
 
-        System.out.println("a + b = " + (a + b)); // addition
-        System.out.println("a - b = " + (a - b)); // subtraction
-        System.out.println("a * b = " + (a * b)); // multiplication
-        System.out.println("a / b = " + (a / b)); // division
-        System.out.println("a % b = " + (a % b)); // modulo
+        var = a; // assign using =
+        System.out.println("var using = : " + var); 
+
+        var += a; // assign using =+
+        System.out.println("var using += : " + var); 
+
+        var *= a; // assign using =*
+        System.out.println("var using *= : " + var); 
     }
 
 }
