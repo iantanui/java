@@ -3,17 +3,12 @@ class Main {
 
     public static void main(String[] args) {
 
-        int a = 4;
-        int var;
+        // create variables
+        int a = 7;
+        int b = 11;
 
-        var = a; // assign using =
-        System.out.println("var using = : " + var); 
-
-        var += a; // assign using =+
-        System.out.println("var using += : " + var); 
-
-        var *= a; // assign using =*
-        System.out.println("var using *= : " + var); 
+        // value of a nd b
+        System.out.println("a is " + a + " and b is " + b); 
     }
 
 }
