@@ -3,30 +3,18 @@ class Main {
 
     public static void main(String[] args) {
 
-        // create variables
-        int a = 7;
-        int b = 11;
+        // && operator
+        System.out.println("5 > 3 && 8 > 5 : " + ((5 > 3) && 8 > 5)); // true
+        System.out.println("5 > 3 && 8 < 5 : " + ((5 > 3) && 8 < 5)); // false
 
-        // value of a nd b
-        System.out.println("a is " + a + " and b is " + b); 
+        // || operator
+        System.out.println("5 < 3 || 8 > 5 : " + ((5 < 3) || 8 > 5)); // true
+        System.out.println("5 > 3 || 8 < 5 : " + ((5 > 3) || 8 < 5)); // true
+        System.out.println("5 < 3 || 8 < 5 : " + ((5 < 3) || 8 < 5)); // false
 
-        // == operator
-        System.out.println("a == b : " + (a == b)); // false
-
-        // != operator
-        System.out.println("a != b : " + (a != b)); // true
-
-        // > operator
-        System.out.println("a > b : " + (a > b)); // false
-
-        // < operator
-        System.out.println("a < b : " + (a < b)); // true
-
-        // >= operator
-        System.out.println("a >= b : " + (a >= b)); // false
-
-        // <= operator
-        System.out.println("a <= b : " + (a <= b)); // true
+        // <!operator
+        System.out.println("!(5 == 3) : " + !(5 == 3)); // true
+        System.out.println("!(5 > 3) : " + !(5 > 3)); // false
     }
 
 }
