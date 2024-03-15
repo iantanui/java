@@ -4,23 +4,13 @@ class Main {
     public static void main(String[] args) {
 
         // declare variables
-        int a = 12, b = 12;
-        int result1, result2;
+        int februaryDays = 29;
+        String result;
 
-        // original value of a
-        System.out.println("Value of a : " + a);
+        // ternary conditional operator
+        result = (februaryDays == 28) ? "Not a leap year" : "Leap year";
+        System.out.println(result);
 
-        // increment operator
-        result1 = ++a;
-        System.out.println("After increment : " + result1);
-
-        // original value of b
-        System.out.println("Value of b : " + b);
-
-        // decrement operator
-        result2 = --b;
-        System.out.println("After decrement : " + result2);
-        
     }
 
 }
