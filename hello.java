@@ -12,14 +12,14 @@ class Main {
 
         // increment operator
         result1 = ++a;
-        System.out.println("After increment: " + result1);
+        System.out.println("After increment : " + result1);
 
         // original value of b
         System.out.println("Value of b : " + b);
 
-        // increment operator
+        // decrement operator
         result2 = --b;
-        System.out.println("After decrement: " + result2);
+        System.out.println("After decrement : " + result2);
         
     }
 
