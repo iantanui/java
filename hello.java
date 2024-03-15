@@ -1,15 +1,17 @@
+import java.util.Scanner;
 
 class Main {
 
     public static void main(String[] args) {
 
-        // declare variables
-        int februaryDays = 29;
-        String result;
+        Scanner input = new Scanner(System.in);
 
-        // ternary conditional operator
-        result = (februaryDays == 28) ? "Not a leap year" : "Leap year";
-        System.out.println(result);
+        System.out.print("Enter an inyteger: ");
+        int number = input.nextInt();
+        System.out.println("You entered " + number);
+
+        // close scanner object
+        input.close();
 
     }
 
