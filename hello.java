@@ -3,18 +3,24 @@ class Main {
 
     public static void main(String[] args) {
 
-        // && operator
-        System.out.println("5 > 3 && 8 > 5 : " + ((5 > 3) && 8 > 5)); // true
-        System.out.println("5 > 3 && 8 < 5 : " + ((5 > 3) && 8 < 5)); // false
+        // declare variables
+        int a = 12, b = 12;
+        int result1, result2;
 
-        // || operator
-        System.out.println("5 < 3 || 8 > 5 : " + ((5 < 3) || 8 > 5)); // true
-        System.out.println("5 > 3 || 8 < 5 : " + ((5 > 3) || 8 < 5)); // true
-        System.out.println("5 < 3 || 8 < 5 : " + ((5 < 3) || 8 < 5)); // false
+        // original value of a
+        System.out.println("Value of a : " + a);
 
-        // <!operator
-        System.out.println("!(5 == 3) : " + !(5 == 3)); // true
-        System.out.println("!(5 > 3) : " + !(5 > 3)); // false
+        // increment operator
+        result1 = ++a;
+        System.out.println("After increment: " + result1);
+
+        // original value of b
+        System.out.println("Value of b : " + b);
+
+        // increment operator
+        result2 = --b;
+        System.out.println("After decrement: " + result2);
+        
     }
 
 }
