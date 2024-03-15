@@ -12,8 +12,13 @@ class Main {
         }
 
         // if number is less than 0
-        else {
+        else if (number < 0) {
             System.out.print("The number is  negative");
+        }
+
+        // if both conditio is false
+        else {
+            System.out.println("The number is 0");
         }
     }
 
