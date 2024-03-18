@@ -1,10 +1,10 @@
-import java.util.Scanner;
+
 
 class Main {
 
     public static void main(String[] args) {
 
-        int number = 1;
+        int number = -1;
 
         // check if number is greater than 0
         if (number > 0) {
